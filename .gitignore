@@ -70,3 +70,6 @@ app.*.symbols
 app.*.map.json
 
 assets/models/vosk-model/
+lib/config/api_config.dart
+
+*.env
