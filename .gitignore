@@ -1,0 +1,72 @@
+# ----------------------------------
+# 🧩 Miscellaneous
+# ----------------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ----------------------------------
+# 🧰 IDE / Editor Files
+# ----------------------------------
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# ----------------------------------
+# 🐦 Flutter / Dart / Pub Related
+# ----------------------------------
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+.packages
+build/
+coverage/
+
+# ----------------------------------
+# 🍏 iOS Related
+# ----------------------------------
+ios/Pods/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# ----------------------------------
+# 🤖 Android Related
+# ----------------------------------
+android/.gradle/
+android/app/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# ----------------------------------
+# 🔒 Dependency & Build Files
+# ----------------------------------
+pubspec.lock
+
+# ----------------------------------
+# 🧱 Symbolication / Obfuscation
+# ----------------------------------
+app.*.symbols
+app.*.map.json
+
+assets/models/vosk-model/
